@@ -1,0 +1,97 @@
+# ============================================================================
+# SKILLS — Technical and soft skills grouped by category
+# level: 1-5 (shown as filled/empty dots)
+# ============================================================================
+
+categories:
+  - name:
+      en: Chemistry & Chemometrics
+      it: Chimica & Chemiometria
+    icon: fas fa-flask
+    skills:
+      - name: Regression
+        level: 5
+      - name: Classification
+        level: 5
+      - name:
+          en: Other Methods (Moving Block, Raw Material ID)
+          it: Altri Metodi (Moving Block, ID Materie Prime)
+        level: 4
+      - name:
+          en: NIR Spectroscopy
+          it: Spettroscopia NIR
+        level: 5
+      - name:
+          en: Multivariate Process Control
+          it: Controllo di Processo Multivariato
+        level: 4
+      - name:
+          en: Design of Experiments
+          it: Disegno Sperimentale
+        level: 3
+      - name:
+          en: Analytical Techniques
+          it: Tecniche Analitiche
+        level: 4
+
+  - name:
+      en: Programming & Tools
+      it: Programmazione & Strumenti
+    icon: fas fa-code
+    skills:
+      - name: Python & ecosystem
+        level: 5
+      - name: HTML / CSS / JavaScript
+        level: 3
+      - name: R
+        level: 2
+      - name: Matlab
+        level: 2
+      - name: Git
+        level: 4
+      - name: Linux & MacOS
+        level: 4
+      - name:
+          en: Data Analysis
+          it: Analisi Dati
+        level: 4
+      - name: LLMs
+        level: 3
+
+  - name:
+      en: Infrastructure
+      it: Infrastruttura
+    icon: fas fa-server
+    skills:
+      - name: Docker
+        level: 4
+      - name: Kubernetes
+        level: 3
+      - name: Azure DevOps
+        level: 4
+
+  - name:
+      en: Soft Skills
+      it: Competenze Trasversali
+    icon: fas fa-users
+    skills:
+      - name:
+          en: Problem Solving
+          it: Problem Solving
+        level: 5
+      - name:
+          en: Interdisciplinary Communication
+          it: Comunicazione Interdisciplinare
+        level: 5
+      - name:
+          en: Organization
+          it: Organizzazione
+        level: 4
+      - name:
+          en: Motivation
+          it: Motivazione
+        level: 5
+      - name:
+          en: Diplomacy
+          it: Diplomazia
+        level: 4

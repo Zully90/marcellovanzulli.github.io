@@ -1,0 +1,65 @@
+---
+layout: default
+---
+
+{% include lang.html %}
+{% assign profile = site.data.profile %}
+
+<article class="px-1">
+  <!-- Hero Section -->
+  <div class="hero">
+    {% if site.avatar != empty and site.avatar %}
+      <img
+        src="{{ site.avatar | relative_url }}"
+        alt="{{ profile.name }}"
+        class="hero-avatar"
+      >
+    {% endif %}
+
+    <h1 class="hero-name">{{ profile.name }}</h1>
+
+    <p class="hero-title">
+      <span data-lang="en">{{ profile.title.en }}</span>
+      <span data-lang="it">{{ profile.title.it }}</span>
+    </p>
+
+    <p class="hero-tagline">
+      <span data-lang="en">{{ profile.tagline.en }}</span>
+      <span data-lang="it">{{ profile.tagline.it }}</span>
+    </p>
+
+    <div>
+      <a href="{{ '/about/' | relative_url }}" class="cta-btn cta-btn--filled">
+        <span data-lang="en">About Me</span>
+        <span data-lang="it">Chi Sono</span>
+      </a>
+      <a href="{{ '/career/' | relative_url }}" class="cta-btn">
+        <span data-lang="en">My Career</span>
+        <span data-lang="it">La Mia Carriera</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Highlights -->
+  {% if profile.highlights %}
+    <div class="highlights">
+      {% for item in profile.highlights %}
+        <div class="highlights-card">
+          <span class="highlights-number">{{ item.number }}</span>
+          <span class="highlights-label">
+            <span data-lang="en">{{ item.label.en }}</span>
+            <span data-lang="it">{{ item.label.it }}</span>
+          </span>
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  <!-- Brief Bio -->
+  <div class="bilingual-block" data-lang="en">
+    <p style="line-height: 1.7; color: var(--text-color);">{{ profile.bio.en }}</p>
+  </div>
+  <div class="bilingual-block" data-lang="it">
+    <p style="line-height: 1.7; color: var(--text-color);">{{ profile.bio.it }}</p>
+  </div>
+</article>

@@ -1,0 +1,148 @@
+# ============================================================================
+# PROJECTS — Notable projects (most recent first)
+# icon: Font Awesome icon class
+# ============================================================================
+
+- title: Lead Chemometrician — NIRLAB
+  icon: fas fa-crown
+  period: "2025 - Present"
+  client: NIRLAB AG
+  description:
+    en: >-
+      Team leader of the chemometrics team, coordinating weekly and long-term
+      planning, collaborating with other teams (PM, Dev, Sales), and defining
+      the R&D roadmap with focus on innovative ML techniques and model validation.
+    it: >-
+      Team leader del gruppo di chemiometria, coordinamento settimanale e di
+      lungo periodo, collaborazione con altri team (PM, Dev, Sales) e definizione
+      della roadmap R&D con focus su tecniche ML innovative e validazione modelli.
+  tags:
+    - Team Lead
+    - ML
+    - R&D
+
+- title: R&D Chemometrician — NIRLAB
+  icon: fas fa-microscope
+  period: "2023 - 2025"
+  client: NIRLAB AG
+  description:
+    en: >-
+      Developing and updating chemometric models for NIR spectra across
+      multiple sectors: narcotics and cannabis, agriculture, aquaculture,
+      agri-food, and plastic materials recycling. Assessing feasibility of NIR
+      applications and evaluating new spectrophotometers for the company portfolio.
+    it: >-
+      Sviluppo e aggiornamento di modelli chemiometrici per spettri NIR in
+      diversi settori: narcotici e cannabis, agricoltura, acquacoltura,
+      agroalimentare e riciclaggio di materiali plastici. Valutazione della
+      fattibilità di applicazioni NIR e di nuovi spettrofotometri per il
+      portfolio aziendale.
+  tags:
+    - NIR
+    - Chemometrics
+    - Multi-sector
+
+- title: AquaControl
+  icon: fas fa-water
+  period: "2023"
+  client: CREA (Freelance)
+  description:
+    en: >-
+      Developed a cloud platform capable of collecting NIR spectra in real-time,
+      processing them according to user-specific aquaphotomics requirements,
+      providing graphical output, saving projects, and generating reports.
+      End-to-end cloud solution built from scratch with real-time processing.
+    it: >-
+      Sviluppo di una piattaforma cloud in grado di raccogliere spettri NIR
+      in tempo reale, elaborarli secondo requisiti di acquafotomica specifici
+      dell'utente, fornire output grafici, salvare progetti e generare report.
+      Soluzione cloud end-to-end costruita da zero con elaborazione real-time.
+  tags:
+    - Cloud
+    - Real-time
+    - Aquaphotomics
+
+- title: FT-IR Spectrum Alignment Software
+  icon: fas fa-chart-line
+  period: "2023"
+  client: Private (Freelance)
+  description:
+    en: >-
+      Developed a Windows tool for finding alignment coefficients between
+      FT-IR spectra with master-slave relationships. Required creative
+      solutions due to constraints: direct instrument import, no heavy
+      computation, offline usage requirement.
+    it: >-
+      Sviluppo di uno strumento Windows per trovare coefficienti di
+      allineamento tra spettri FT-IR con relazione master-slave. Richieste
+      soluzioni creative per vincoli: importazione diretta dallo strumento,
+      nessun calcolo pesante, utilizzo offline obbligatorio.
+  tags:
+    - FT-IR
+    - Desktop App
+    - Offline
+
+- title: QualiControl
+  icon: fas fa-clipboard-check
+  period: "2020 - 2023"
+  client: Qualitade srl
+  description:
+    en: >-
+      Fully integrated solution for professional quality control with a portable
+      NIR instrument. Designed the platform architecture (UI/UX input), defined
+      content requirements (charts, algorithms), and developed predictive NIR
+      models. Enables production monitoring with multivariate control charts
+      and analysis results.
+    it: >-
+      Soluzione completamente integrata per il controllo qualità professionale
+      con uno strumento NIR portatile. Progettazione dell'architettura della
+      piattaforma (input UI/UX), definizione dei requisiti di contenuto
+      (grafici, algoritmi) e sviluppo di modelli NIR predittivi. Consente il
+      monitoraggio della produzione con carte di controllo multivariate e
+      risultati di analisi.
+  tags:
+    - NIR
+    - Quality Control
+    - Platform Design
+
+- title: DataViz Platform
+  icon: fas fa-chart-bar
+  period: "2019 - 2020"
+  client: Techno Consortium
+  description:
+    en: >-
+      Built a data pipeline to receive and parse heterogeneous, barely formatted
+      files, store them, aggregate data calculating KPIs defined by stakeholders,
+      and send results to a Business Intelligence platform.
+    it: >-
+      Costruzione di una pipeline dati per ricevere e analizzare file eterogenei
+      e poco formattati, memorizzarli, aggregare i dati calcolando KPI definiti
+      dagli stakeholder e inviare i risultati a una piattaforma di Business
+      Intelligence.
+  tags:
+    - Data Pipeline
+    - BI
+    - KPI
+
+- title:
+    en: Typical End-to-End NIR Projects
+    it: Progetti NIR End-to-End Tipici
+  icon: fas fa-project-diagram
+  period: "2019 - Present"
+  client: Qualitade srl / NIRLAB AG
+  description:
+    en: >-
+      Managing complete NIR application lifecycles for food industry and beyond:
+      from initial client consultation, feasibility assessment, proper training
+      in data sampling and chemometrics, to cluster/platform setup and demo
+      model realization.
+    it: >-
+      Gestione di cicli di vita completi di applicazioni NIR per l'industria
+      alimentare e non solo: dalla consulenza iniziale con il cliente, alla
+      valutazione di fattibilità, alla formazione su campionamento e
+      chemiometria, fino al setup del cluster/piattaforma e alla realizzazione
+      di modelli demo.
+  tags:
+    - End-to-End
+    - NIR
+    - Client Management

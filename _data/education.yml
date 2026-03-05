@@ -1,0 +1,142 @@
+# ============================================================================
+# EDUCATION — Academic background and professional courses (most recent first)
+# type: 'degree' for formal degrees, 'course' for professional courses/schools
+# ============================================================================
+
+- title:
+    en: Post Graduate Degree in Business Intelligence & Big Data Analytics
+    it: Corso Post-Laurea in Business Intelligence & Big Data Analytics
+  institution: Universita degli studi di Milano Bicocca
+  location: Milan
+  period: "2021"
+  type: degree
+  description:
+    en: >-
+      Final work on a classification method capable of recognizing cyber attacks
+      using logs of the attacked machine.
+    it: >-
+      Lavoro finale su un metodo di classificazione in grado di riconoscere
+      attacchi informatici utilizzando i log della macchina attaccata.
+
+- title:
+    en: Master Degree in Analytical Chemistry & Chemometrics
+    it: Laurea Magistrale in Chimica Analitica e Chemiometria
+  institution: Universita degli studi di Pavia
+  location: Pavia
+  period: "2014 - 2017"
+  type: degree
+  description:
+    en: >-
+      Thesis on realization of a low cost colorimetric sensor for metals in water.
+    it: >-
+      Tesi sulla realizzazione di un sensore colorimetrico a basso costo per
+      metalli in acqua.
+
+- title:
+    en: Bachelor's Degree in Chemistry
+    it: Laurea Triennale in Chimica
+  institution: Universita degli studi di Milano
+  location: Milan
+  period: "2010 - 2014"
+  type: degree
+  description:
+    en: >-
+      Thesis on extraction and characterization of polyphenols in hop using HPLC.
+    it: >-
+      Tesi sull'estrazione e caratterizzazione di polifenoli nel luppolo tramite HPLC.
+
+- title:
+    en: High School Diploma — Industrial Chemical Technician
+    it: Diploma — Perito Chimico Industriale
+  institution: ITIS Cannizzaro
+  location: Rho (MI)
+  period: "2004 - 2009"
+  type: degree
+  description:
+    en: Industrial chemical technician.
+    it: Perito chimico industriale.
+
+# Professional courses and schools
+- title:
+    en: Chemometrics Tools for Process Monitoring School
+    it: Scuola di Strumenti Chemiometrici per il Monitoraggio di Processo
+  institution: UniMoRe
+  location: Modena
+  period: "2024"
+  type: course
+  description:
+    en: >-
+      Focused on multivariate approaches to statistical process control in
+      industrial contexts.
+    it: >-
+      Focalizzata sugli approcci multivariati al controllo statistico di processo
+      in contesti industriali.
+
+- title:
+    en: International School of Chemometrics
+    it: Scuola Internazionale di Chemiometria
+  institution: HYPER-Tools
+  location: Copenhagen
+  period: "2021"
+  type: course
+  description:
+    en: >-
+      Classical chemometrics: regression, classification, metabolomics, QSAR,
+      MVPC, data fusion.
+    it: >-
+      Chemiometria classica: regressione, classificazione, metabolomica, QSAR,
+      MVPC, fusione dati.
+
+- title:
+    en: Don't Miss The Boat! — Mass Spectrometry Course
+    it: Don't Miss The Boat! — Corso di Spettrometria di Massa
+  institution: Italian Mass Spectrometry Society
+  location: Milan
+  period: "2017 - Present"
+  type: course
+  description:
+    en: >-
+      Intensive course on mass spectrometry hosted on a cruise ship: attending
+      courses while sailing and visiting important laboratories at docks.
+    it: >-
+      Corso intensivo di spettrometria di massa su nave da crociera: lezioni
+      durante la navigazione e visite a laboratori importanti durante le soste.
+
+- title:
+    en: Multivariate Analysis School
+    it: Scuola di Analisi Multivariata
+  institution: Universita degli studi di Genova
+  location: Genoa
+  period: "2017"
+  type: course
+  description:
+    en: >-
+      Focused on multivariate techniques in regression and classification:
+      PCA, PLS, KNN, and more.
+    it: >-
+      Focalizzata su tecniche multivariate in regressione e classificazione:
+      PCA, PLS, KNN e altro.
+
+- title:
+    en: Winter School — NIR Spectroscopy
+    it: Scuola Invernale — Spettroscopia NIR
+  institution: CREA
+  location: Milan
+  period: "2017"
+  type: course
+  description:
+    en: One week course focused on real applications of NIR spectroscopy.
+    it: Corso di una settimana focalizzato su applicazioni reali della spettroscopia NIR.
+
+- title:
+    en: Design of Experiments (DoE) School
+    it: Scuola di Disegno Sperimentale (DoE)
+  institution: Universita degli studi di Genova
+  location: Genoa
+  period: "2015"
+  type: course
+  description:
+    en: >-
+      Theory, full factorial, fractional, Doehlert, optimal design, mixtures.
+    it: >-
+      Teoria, fattoriale completo, frazionario, Doehlert, disegno ottimale, miscele.

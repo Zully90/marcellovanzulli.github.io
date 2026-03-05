@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+{% include lang.html %}
+
+<article class="px-1">
+  <h1 class="dynamic-title">
+    <span data-lang="en">Projects</span>
+    <span data-lang="it">Progetti</span>
+  </h1>
+
+  <div class="content">
+    <div class="projects-grid">
+      {% for project in site.data.projects %}
+        <div class="project-card">
+          <div class="project-card-header">
+            <div class="project-card-icon">
+              <i class="{{ project.icon }}"></i>
+            </div>
+            <div>
+              <h3 class="project-card-title">
+                {% if project.title.en %}
+                  <span data-lang="en">{{ project.title.en }}</span>
+                  <span data-lang="it">{{ project.title.it }}</span>
+                {% else %}
+                  {{ project.title }}
+                {% endif %}
+              </h3>
+              <span class="project-card-client">{{ project.client }}</span>
+            </div>
+          </div>
+
+          <div class="project-card-period">
+            <i class="far fa-calendar-alt"></i> {{ project.period }}
+          </div>
+
+          <div class="bilingual-block" data-lang="en">
+            <p class="project-card-description">{{ project.description.en }}</p>
+          </div>
+          <div class="bilingual-block" data-lang="it">
+            <p class="project-card-description">{{ project.description.it }}</p>
+          </div>
+
+          {% if project.tags %}
+            <div class="project-card-tags">
+              {% for tag in project.tags %}
+                <span>{{ tag }}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</article>

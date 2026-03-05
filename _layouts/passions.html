@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+{% include lang.html %}
+
+<article class="px-1">
+  <h1 class="dynamic-title">
+    <span data-lang="en">Passions</span>
+    <span data-lang="it">Passioni</span>
+  </h1>
+
+  <div class="content">
+    <p style="color: var(--text-muted-color); margin-bottom: 1.5rem;">
+      <span data-lang="en">
+        Beyond data science and spectroscopy, here's what keeps me inspired
+        and balanced outside of work.
+      </span>
+      <span data-lang="it">
+        Oltre alla data science e alla spettroscopia, ecco cosa mi tiene
+        ispirato e in equilibrio fuori dal lavoro.
+      </span>
+    </p>
+
+    <div class="passions-grid">
+      {% for passion in site.data.passions %}
+        <div class="passion-card">
+          <div class="passion-card-header">
+            <div class="passion-card-icon">
+              <i class="{{ passion.icon }}"></i>
+            </div>
+            <div>
+              <h3 class="passion-card-title">
+                <span data-lang="en">{{ passion.title.en }}</span>
+                <span data-lang="it">{{ passion.title.it }}</span>
+              </h3>
+              <span class="passion-card-category">
+                <span data-lang="en">{{ passion.category.en }}</span>
+                <span data-lang="it">{{ passion.category.it }}</span>
+              </span>
+            </div>
+          </div>
+
+          <div class="bilingual-block" data-lang="en">
+            <p class="passion-card-description">{{ passion.description.en }}</p>
+          </div>
+          <div class="bilingual-block" data-lang="it">
+            <p class="passion-card-description">{{ passion.description.it }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</article>
