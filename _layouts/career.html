@@ -1,0 +1,133 @@
+---
+layout: default
+---
+
+{% include lang.html %}
+
+<article class="px-1">
+  <h1 class="dynamic-title">
+    <span data-lang="en">Career</span>
+    <span data-lang="it">Carriera</span>
+  </h1>
+
+  <div class="content">
+    <!-- Experience -->
+    <h2 class="section-title">
+      <i class="fas fa-briefcase"></i>
+      <span data-lang="en">Experience</span>
+      <span data-lang="it">Esperienza</span>
+    </h2>
+
+    <div class="timeline">
+      {% for job in site.data.experience %}
+        <div class="timeline-entry{% if job.current %} current{% endif %}">
+          <div class="timeline-entry-header">
+            <h3 class="timeline-entry-role">
+              <span data-lang="en">{{ job.role.en }}</span>
+              <span data-lang="it">{{ job.role.it }}</span>
+            </h3>
+            <span class="timeline-entry-company">@ {{ job.company }}</span>
+          </div>
+
+          <div class="timeline-entry-meta">
+            <span><i class="far fa-calendar-alt"></i> {{ job.period }}</span>
+            <span><i class="fas fa-map-marker-alt"></i> {{ job.location }}</span>
+          </div>
+
+          <div class="bilingual-block" data-lang="en">
+            <p class="timeline-entry-description">{{ job.description.en }}</p>
+          </div>
+          <div class="bilingual-block" data-lang="it">
+            <p class="timeline-entry-description">{{ job.description.it }}</p>
+          </div>
+
+          {% if job.highlights %}
+            <ul class="timeline-entry-highlights">
+              {% for h in job.highlights %}
+                <li>
+                  <span data-lang="en">{{ h.en }}</span>
+                  <span data-lang="it">{{ h.it }}</span>
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+
+    <!-- Education -->
+    <h2 class="section-title">
+      <i class="fas fa-graduation-cap"></i>
+      <span data-lang="en">Education</span>
+      <span data-lang="it">Formazione</span>
+    </h2>
+
+    <!-- Degrees -->
+    <h3 class="timeline-section-title">
+      <i class="fas fa-university"></i>
+      <span data-lang="en">Degrees</span>
+      <span data-lang="it">Titoli di Studio</span>
+    </h3>
+
+    <div class="timeline">
+      {% for edu in site.data.education %}
+        {% if edu.type == 'degree' %}
+          <div class="timeline-entry">
+            <div class="timeline-entry-header">
+              <h3 class="timeline-entry-role">
+                <span data-lang="en">{{ edu.title.en }}</span>
+                <span data-lang="it">{{ edu.title.it }}</span>
+              </h3>
+            </div>
+
+            <div class="timeline-entry-meta">
+              <span><i class="far fa-calendar-alt"></i> {{ edu.period }}</span>
+              <span><i class="fas fa-map-marker-alt"></i> {{ edu.institution }}, {{ edu.location }}</span>
+            </div>
+
+            <div class="bilingual-block" data-lang="en">
+              <p class="timeline-entry-description">{{ edu.description.en }}</p>
+            </div>
+            <div class="bilingual-block" data-lang="it">
+              <p class="timeline-entry-description">{{ edu.description.it }}</p>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <!-- Professional Courses -->
+    <h3 class="timeline-section-title">
+      <i class="fas fa-chalkboard-teacher"></i>
+      <span data-lang="en">Professional Courses & Schools</span>
+      <span data-lang="it">Corsi e Scuole Professionali</span>
+    </h3>
+
+    <div class="timeline">
+      {% for edu in site.data.education %}
+        {% if edu.type == 'course' %}
+          <div class="timeline-entry">
+            <div class="timeline-entry-header">
+              <h3 class="timeline-entry-role">
+                <span data-lang="en">{{ edu.title.en }}</span>
+                <span data-lang="it">{{ edu.title.it }}</span>
+              </h3>
+            </div>
+
+            <div class="timeline-entry-meta">
+              <span><i class="far fa-calendar-alt"></i> {{ edu.period }}</span>
+              <span><i class="fas fa-map-marker-alt"></i> {{ edu.institution }}, {{ edu.location }}</span>
+            </div>
+
+            <div class="bilingual-block" data-lang="en">
+              <p class="timeline-entry-description">{{ edu.description.en }}</p>
+            </div>
+            <div class="bilingual-block" data-lang="it">
+              <p class="timeline-entry-description">{{ edu.description.it }}</p>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</article>

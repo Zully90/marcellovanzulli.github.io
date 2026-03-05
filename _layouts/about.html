@@ -1,0 +1,125 @@
+---
+layout: default
+---
+
+{% include lang.html %}
+{% assign profile = site.data.profile %}
+
+<article class="px-1">
+  <h1 class="dynamic-title">
+    <span data-lang="en">About</span>
+    <span data-lang="it">Chi Sono</span>
+  </h1>
+
+  <div class="content">
+    <!-- Bio -->
+    <div class="bilingual-block" data-lang="en">
+      <p style="line-height: 1.7; font-size: 1.02rem;">{{ profile.bio.en }}</p>
+    </div>
+    <div class="bilingual-block" data-lang="it">
+      <p style="line-height: 1.7; font-size: 1.02rem;">{{ profile.bio.it }}</p>
+    </div>
+
+    <!-- Skills -->
+    <h2 class="section-title">
+      <i class="fas fa-tools"></i>
+      <span data-lang="en">Skills</span>
+      <span data-lang="it">Competenze</span>
+    </h2>
+
+    <div class="skills-section">
+      {% for category in site.data.skills.categories %}
+        <div class="skill-category">
+          <h3 class="skill-category-title">
+            <i class="{{ category.icon }}"></i>
+            {% if category.name.en %}
+              <span data-lang="en">{{ category.name.en }}</span>
+              <span data-lang="it">{{ category.name.it }}</span>
+            {% else %}
+              {{ category.name }}
+            {% endif %}
+          </h3>
+
+          {% for skill in category.skills %}
+            <div class="skill-item">
+              <span class="skill-item-name">
+                {% if skill.name.en %}
+                  <span data-lang="en">{{ skill.name.en }}</span>
+                  <span data-lang="it">{{ skill.name.it }}</span>
+                {% else %}
+                  {{ skill.name }}
+                {% endif %}
+              </span>
+              <span class="skill-item-dots">
+                {% for i in (1..5) %}
+                  <span class="skill-item-dot{% if i <= skill.level %} filled{% endif %}"></span>
+                {% endfor %}
+              </span>
+            </div>
+          {% endfor %}
+        </div>
+      {% endfor %}
+    </div>
+
+    <!-- Languages -->
+    <h2 class="section-title">
+      <i class="fas fa-language"></i>
+      <span data-lang="en">Languages</span>
+      <span data-lang="it">Lingue</span>
+    </h2>
+
+    <div class="spoken-languages">
+      {% for lang_item in site.data.languages %}
+        <div class="language-item">
+          <div>
+            <span class="language-item-name">
+              <span data-lang="en">{{ lang_item.name.en }}</span>
+              <span data-lang="it">{{ lang_item.name.it }}</span>
+            </span>
+            {% if lang_item.native %}
+              <span class="language-item-badge">
+                <span data-lang="en">Native</span>
+                <span data-lang="it">Madrelingua</span>
+              </span>
+            {% endif %}
+          </div>
+          <span class="skill-item-dots">
+            {% for i in (1..5) %}
+              <span class="skill-item-dot{% if i <= lang_item.level %} filled{% endif %}"></span>
+            {% endfor %}
+          </span>
+        </div>
+      {% endfor %}
+    </div>
+
+    <!-- Contact -->
+    <h2 class="section-title">
+      <i class="fas fa-address-card"></i>
+      <span data-lang="en">Contact</span>
+      <span data-lang="it">Contatti</span>
+    </h2>
+
+    <ul class="contact-info">
+      <li>
+        <i class="fas fa-map-marker-alt"></i>
+        {{ profile.location }}
+      </li>
+      <li>
+        <i class="fas fa-envelope"></i>
+        <a href="mailto:{{ profile.email }}">{{ profile.email }}</a>
+      </li>
+      <li>
+        <i class="fab fa-linkedin"></i>
+        <a href="https://www.linkedin.com/in/{{ profile.linkedin }}" target="_blank" rel="noopener noreferrer">
+          linkedin.com/in/{{ profile.linkedin }}
+        </a>
+      </li>
+      <li>
+        <i class="fab fa-github"></i>
+        <a href="https://github.com/{{ profile.github }}" target="_blank" rel="noopener noreferrer">
+          github.com/{{ profile.github }}
+        </a>
+      </li>
+    </ul>
+  </div>
+</article>

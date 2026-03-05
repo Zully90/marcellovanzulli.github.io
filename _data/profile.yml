@@ -1,0 +1,59 @@
+# ============================================================================
+# PROFILE — Main personal information
+# Edit this file to update your name, title, bio, and contact details.
+# Each text field has an 'en' (English) and 'it' (Italian) version.
+# ============================================================================
+
+name: Marcello Vanzulli
+
+title:
+  en: Lead Chemometrician & Data Scientist
+  it: Lead Chemometrician & Data Scientist
+
+tagline:
+  en: Bridging chemistry and data science through spectroscopy and machine learning
+  it: Tra chimica e data science attraverso spettroscopia e machine learning
+
+location: Milano, Italy
+email: info@marcellovanzulli.com
+phone: "+39 375 5292 148"
+address: Via Cascina Torrette 26, Cornaredo (MI), Italy
+linkedin: marcellovanzulli
+github: Zully90
+
+bio:
+  en: >-
+    I am a Lead Chemometrician and Data Scientist with over 8 years of experience
+    in developing predictive models for NIR, Raman, and other spectroscopic techniques.
+    I lead a team of specialists at NIRLAB AG in Lausanne, where I combine my expertise
+    in analytical chemistry with advanced machine learning methods. My work spans the
+    full lifecycle — from client consultation and feasibility analysis to model development,
+    deployment with Docker/Kubernetes, and ongoing support. I thrive at the intersection
+    of chemistry, data science, and business communication.
+  it: >-
+    Sono un Lead Chemometrician e Data Scientist con oltre 8 anni di esperienza
+    nello sviluppo di modelli predittivi per NIR, Raman e altre tecniche spettroscopiche.
+    Guido un team di specialisti presso NIRLAB AG a Losanna, dove combino la mia competenza
+    in chimica analitica con metodi avanzati di machine learning. Il mio lavoro copre l'intero
+    ciclo di vita — dalla consulenza al cliente e analisi di fattibilità, allo sviluppo dei modelli,
+    al deployment con Docker/Kubernetes, al supporto continuo. Opero con naturalezza
+    all'intersezione tra chimica, data science e comunicazione aziendale.
+
+# Highlights shown on the homepage (number + label)
+highlights:
+  - number: "8+"
+    label:
+      en: Years of Experience
+      it: Anni di Esperienza
+  - number: "5+"
+    label:
+      en: Major Projects
+      it: Progetti Importanti
+  - number: "3"
+    label:
+      en: Team Members Led
+      it: Membri del Team
+  - number: "4"
+    label:
+      en: Languages Spoken
+      it: Lingue Parlate

@@ -1,0 +1,28 @@
+# ============================================================================
+# LANGUAGES — Foreign languages spoken
+# level: 1-5 (shown as filled/empty dots)
+# ============================================================================
+
+- name:
+    en: Italian
+    it: Italiano
+  level: 5
+  native: true
+
+- name:
+    en: English
+    it: Inglese
+  level: 5
+  native: false
+
+- name:
+    en: French
+    it: Francese
+  level: 4
+  native: false
+
+- name:
+    en: Spanish
+    it: Spagnolo
+  level: 4
+  native: false

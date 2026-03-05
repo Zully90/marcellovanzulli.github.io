@@ -6,15 +6,19 @@ layout:
   post: Post
   category: Categoria
   tag: Tag
+  home-personal: Home
 
 # The tabs of sidebar
 tabs:
   # format: <filename_without_extension>: <value>
-  home: Pagina principale
+  home: Home
+  about: Chi Sono
+  career: Carriera
+  projects: Progetti
+  passions: Passioni
   categories: Categorie
   tags: Tags
   archives: Archivio
-  about: Informazioni
 
 # the text displayed in the search bar & search results
 search:

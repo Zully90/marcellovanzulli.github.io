@@ -1,0 +1,99 @@
+# ============================================================================
+# EXPERIENCE — Work history (most recent first)
+# To add a new position, copy an existing entry and fill in your details.
+# Set 'current: true' only for your current role.
+# ============================================================================
+
+- role:
+    en: Lead Chemometrician
+    it: Lead Chemometrician
+  company: NIRLAB AG
+  location: Lausanne, Switzerland
+  period: "2025 - Present"
+  current: true
+  description:
+    en: >-
+      Team leader of the chemometrics team, guiding three specialists while
+      continuing work in regression and classification model development for
+      NIR, Raman, and other spectroscopic techniques. Coordinating closely
+      with project management and sales teams, ensuring alignment between
+      R&D initiatives and business goals. Actively involved in research with
+      focus on innovative machine learning methods and validation strategies
+      for complex, black-box models.
+    it: >-
+      Team leader del gruppo di chemiometria, coordinando tre specialisti e
+      continuando a sviluppare modelli di regressione e classificazione per
+      NIR, Raman e altre tecniche spettroscopiche. Collaborazione stretta con
+      i team di project management e vendite, garantendo l'allineamento tra
+      iniziative R&D e obiettivi di business. Attivamente coinvolto nella
+      ricerca con focus su tecniche innovative di machine learning e strategie
+      di validazione per modelli complessi di tipo black-box.
+  highlights:
+    - en: Team coordination & mentoring
+      it: Coordinamento team e mentoring
+    - en: R&D roadmap for ML techniques
+      it: Roadmap R&D per tecniche ML
+    - en: Cross-team collaboration (PM, Dev, Sales)
+      it: Collaborazione cross-team (PM, Dev, Sales)
+
+- role:
+    en: Freelance Senior Chemometrician
+    it: Freelance Senior Chemometrician
+  company: NIRLAB AG
+  location: Lausanne, Switzerland
+  period: "2023 - 2025"
+  current: false
+  description:
+    en: >-
+      Developed regression and classification models for NIR, Raman, and beyond.
+      Designed ad hoc algorithms to solve complex, non-standard problems.
+      Held an R&D role overseeing all non-standard requests, assessing physical
+      and technological limitations. Collaborated in developing a web platform
+      for model utilization.
+    it: >-
+      Sviluppo di modelli di regressione e classificazione per NIR, Raman e
+      oltre. Progettazione di algoritmi ad hoc per risolvere problemi complessi
+      e non standard. Ruolo R&D con supervisione di tutte le richieste non
+      standard, valutando limiti fisici e tecnologici. Collaborazione allo
+      sviluppo di una piattaforma web per l'utilizzo dei modelli.
+  highlights:
+    - en: Ad hoc algorithm development
+      it: Sviluppo algoritmi ad hoc
+    - en: R&D feasibility assessment
+      it: Valutazione fattibilità R&D
+    - en: Web platform collaboration
+      it: Collaborazione piattaforma web
+
+- role:
+    en: Data Scientist
+    it: Data Scientist
+  company: Qualitade srl
+  location: Cremona, Italy
+  period: "2017 - 2023"
+  current: false
+  description:
+    en: >-
+      Began as a chemometrician responsible for NIR model development, then
+      evolved into designing and implementing Python code for chemometrics,
+      including documentation with Vue. Became the primary spokesperson for
+      the software development team and key account manager for international
+      clients. Responsible for training new employees and main point of contact
+      for suppliers. Built and deployed models using Scikit-Learn, Docker, and
+      Kubernetes with proper CI/CD pipelines.
+    it: >-
+      Iniziato come chemiometrista responsabile dello sviluppo di modelli NIR,
+      poi evoluto nella progettazione e implementazione di codice Python per
+      la chemiometria, inclusa la documentazione con Vue. Diventato il portavoce
+      principale del team di sviluppo software e key account manager per clienti
+      internazionali. Responsabile della formazione dei nuovi dipendenti e
+      punto di contatto principale per i fornitori. Costruzione e deployment di
+      modelli con Scikit-Learn, Docker e Kubernetes con pipeline CI/CD.
+  highlights:
+    - en: NIR model development with Scikit-Learn
+      it: Sviluppo modelli NIR con Scikit-Learn
+    - en: International key account management
+      it: Key account management internazionale
+    - en: Docker & Kubernetes deployment
+      it: Deployment Docker & Kubernetes
+    - en: Team training & documentation
+      it: Formazione team e documentazione

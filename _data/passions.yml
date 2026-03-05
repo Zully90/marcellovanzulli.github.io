@@ -1,0 +1,100 @@
+# ============================================================================
+# PASSIONS — Hobbies and interests outside of work
+# icon: Font Awesome icon class
+# ============================================================================
+
+- title:
+    en: Knowledge
+    it: Conoscenza
+  category:
+    en: Obscure Passion
+    it: Passione Nascosta
+  icon: fas fa-book-open
+  description:
+    en: >-
+      An insatiable curiosity drives me to constantly explore new fields and
+      ideas. Whether it's diving into a new scientific paper, learning about
+      a completely different discipline, or understanding how things work at
+      a fundamental level — the pursuit of knowledge is a core part of who I am.
+    it: >-
+      Una curiosità insaziabile mi spinge a esplorare costantemente nuovi campi
+      e idee. Che si tratti di leggere un articolo scientifico, di imparare su
+      una disciplina completamente diversa o di capire come funzionano le cose
+      a livello fondamentale — la ricerca della conoscenza è parte essenziale
+      di chi sono.
+
+- title:
+    en: Fantasy Soccer & Applied Chemometrics
+    it: Fantacalcio & Chemiometria Applicata
+  category:
+    en: Obsession
+    it: Ossessione
+  icon: fas fa-futbol
+  description:
+    en: >-
+      Why not apply chemometrics outside the lab? I use data analysis techniques
+      from my professional toolkit to gain an edge in Fantasy Soccer and similar
+      games. It's the perfect playground to test models in a fun, competitive
+      context.
+    it: >-
+      Perché non applicare la chemiometria fuori dal laboratorio? Uso le tecniche
+      di analisi dati del mio toolkit professionale per avere un vantaggio nel
+      Fantacalcio e giochi simili. È il terreno perfetto per testare modelli
+      in un contesto divertente e competitivo.
+
+- title:
+    en: Carp & Coarse Fishing
+    it: Pesca alla Carpa e a Fondo
+  category:
+    en: Devotion
+    it: Devozione
+  icon: fas fa-fish
+  description:
+    en: >-
+      There's something deeply meditative about sitting by the water, waiting
+      for the perfect catch. Carp and coarse fishing is my way to disconnect,
+      be patient, and enjoy the outdoors. It's a practice that teaches patience
+      and attention to detail — skills that transfer surprisingly well to data science.
+    it: >-
+      C'è qualcosa di profondamente meditativo nel sedersi in riva all'acqua,
+      aspettando la cattura perfetta. La pesca alla carpa e a fondo è il mio
+      modo per staccare, essere paziente e godermi la natura. È una pratica che
+      insegna pazienza e attenzione al dettaglio — competenze che si trasferiscono
+      sorprendentemente bene alla data science.
+
+- title:
+    en: Role-Playing Games
+    it: Giochi di Ruolo
+  category:
+    en: Free Time
+    it: Tempo Libero
+  icon: fas fa-dice-d20
+  description:
+    en: >-
+      I enjoy role-playing games focused on integration and storytelling.
+      Building narratives, collaborating with other players, and solving
+      problems creatively — it's a different kind of teamwork that exercises
+      imagination and social skills.
+    it: >-
+      Mi piacciono i giochi di ruolo focalizzati sull'integrazione e sulla
+      narrazione. Costruire storie, collaborare con altri giocatori e risolvere
+      problemi in modo creativo — è un tipo diverso di lavoro di squadra che
+      esercita immaginazione e competenze sociali.
+
+- title:
+    en: Music, Reading, Gym, Rugby & Tech
+    it: Musica, Lettura, Palestra, Rugby & Tech
+  category:
+    en: And More...
+    it: E Altro...
+  icon: fas fa-headphones
+  description:
+    en: >-
+      A mix of activities that keep me balanced: music for the soul, reading
+      for the mind, gym and rugby for the body, and staying up to date with
+      the latest in technology for professional growth and personal curiosity.
+    it: >-
+      Un mix di attività che mi tengono in equilibrio: la musica per l'anima,
+      la lettura per la mente, palestra e rugby per il corpo, e rimanere
+      aggiornato sulle ultime novità tecnologiche per crescita professionale
+      e curiosità personale.
