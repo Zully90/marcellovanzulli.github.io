@@ -92,34 +92,5 @@ layout: default
       {% endfor %}
     </div>
 
-    <!-- Contact -->
-    <h2 class="section-title">
-      <i class="fas fa-address-card"></i>
-      <span data-lang="en">Contact</span>
-      <span data-lang="it">Contatti</span>
-    </h2>
-
-    <ul class="contact-info">
-      <li>
-        <i class="fas fa-map-marker-alt"></i>
-        {{ profile.location }}
-      </li>
-      <li>
-        <i class="fas fa-envelope"></i>
-        <a href="mailto:{{ profile.email }}">{{ profile.email }}</a>
-      </li>
-      <li>
-        <i class="fab fa-linkedin"></i>
-        <a href="https://www.linkedin.com/in/{{ profile.linkedin }}" target="_blank" rel="noopener noreferrer">
-          linkedin.com/in/{{ profile.linkedin }}
-        </a>
-      </li>
-      <li>
-        <i class="fab fa-github"></i>
-        <a href="https://github.com/{{ profile.github }}" target="_blank" rel="noopener noreferrer">
-          github.com/{{ profile.github }}
-        </a>
-      </li>
-    </ul>
   </div>
 </article>
