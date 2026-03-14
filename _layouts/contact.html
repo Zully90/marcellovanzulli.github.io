@@ -1,0 +1,200 @@
+---
+layout: default
+---
+
+{% include lang.html %}
+{% assign profile = site.data.profile %}
+
+<article class="px-1">
+  <h1 class="dynamic-title">
+    <span data-lang="en">Contact</span>
+    <span data-lang="it">Contattami</span>
+  </h1>
+
+  <div class="content">
+
+    <!-- Intro -->
+    <div class="bilingual-block" data-lang="en">
+      <p style="line-height: 1.7; font-size: 1.02rem; color: var(--text-muted-color);">
+        Feel free to reach out for professional enquiries, collaborations, or just to say hello.
+      </p>
+    </div>
+    <div class="bilingual-block" data-lang="it">
+      <p style="line-height: 1.7; font-size: 1.02rem; color: var(--text-muted-color);">
+        Scrivimi per opportunità professionali, collaborazioni o semplicemente per un saluto.
+      </p>
+    </div>
+
+    <!-- Contact info cards -->
+    <div class="contact-cards">
+      <a class="contact-card" href="mailto:{{ profile.email }}">
+        <i class="fas fa-envelope"></i>
+        <div>
+          <div class="contact-card-label">
+            <span data-lang="en">Email</span>
+            <span data-lang="it">Email</span>
+          </div>
+          <div class="contact-card-value">{{ profile.email }}</div>
+        </div>
+      </a>
+
+      <a class="contact-card" href="https://www.linkedin.com/in/{{ profile.linkedin }}" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-linkedin"></i>
+        <div>
+          <div class="contact-card-label">LinkedIn</div>
+          <div class="contact-card-value">{{ profile.linkedin }}</div>
+        </div>
+      </a>
+
+      <a class="contact-card" href="https://github.com/{{ profile.github }}" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-github"></i>
+        <div>
+          <div class="contact-card-label">GitHub</div>
+          <div class="contact-card-value">{{ profile.github }}</div>
+        </div>
+      </a>
+
+      <div class="contact-card">
+        <i class="fas fa-map-marker-alt"></i>
+        <div>
+          <div class="contact-card-label">
+            <span data-lang="en">Location</span>
+            <span data-lang="it">Posizione</span>
+          </div>
+          <div class="contact-card-value">{{ profile.location }}</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact form -->
+    <h2 class="section-title" style="margin-top: 2.5rem;">
+      <i class="fas fa-paper-plane"></i>
+      <span data-lang="en">Send a message</span>
+      <span data-lang="it">Inviami un messaggio</span>
+    </h2>
+
+    <form id="contact-form" class="contact-form" action="https://formspree.io/f/xbdzkvor" method="POST" novalidate>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="contact-name">
+            <span data-lang="en">Your name</span>
+            <span data-lang="it">Il tuo nome</span>
+          </label>
+          <input
+            type="text"
+            id="contact-name"
+            name="name"
+            autocomplete="name"
+            required
+            placeholder="Marcello Vanzulli"
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="contact-email">
+            <span data-lang="en">Your email</span>
+            <span data-lang="it">La tua email</span>
+          </label>
+          <input
+            type="email"
+            id="contact-email"
+            name="email"
+            autocomplete="email"
+            required
+            placeholder="you@example.com"
+          >
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="contact-message">
+          <span data-lang="en">Message</span>
+          <span data-lang="it">Messaggio</span>
+        </label>
+        <textarea
+          id="contact-message"
+          name="message"
+          rows="6"
+          required
+          placeholder=""
+        ></textarea>
+      </div>
+
+      <div class="form-footer">
+        <button type="submit" class="cta-btn cta-btn--filled contact-submit" id="contact-submit">
+          <i class="fas fa-paper-plane"></i>
+          <span class="btn-label">
+            <span data-lang="en">Send message</span>
+            <span data-lang="it">Invia messaggio</span>
+          </span>
+          <span class="btn-sending" style="display:none;">
+            <span data-lang="en">Sending…</span>
+            <span data-lang="it">Invio in corso…</span>
+          </span>
+        </button>
+      </div>
+
+      <!-- Success / Error feedback -->
+      <div id="form-success" class="form-feedback form-feedback--success" style="display:none;">
+        <i class="fas fa-check-circle"></i>
+        <span data-lang="en">Message sent! I'll get back to you soon.</span>
+        <span data-lang="it">Messaggio inviato! Ti risponderò al più presto.</span>
+      </div>
+      <div id="form-error" class="form-feedback form-feedback--error" style="display:none;">
+        <i class="fas fa-exclamation-circle"></i>
+        <span data-lang="en">Something went wrong. Please try again or email me directly.</span>
+        <span data-lang="it">Qualcosa è andato storto. Riprova o scrivimi direttamente.</span>
+      </div>
+
+    </form>
+
+  </div><!-- .content -->
+</article>
+
+<script>
+(function () {
+  var form = document.getElementById('contact-form');
+  if (!form) return;
+
+  form.addEventListener('submit', async function (e) {
+    e.preventDefault();
+
+    var submitBtn  = document.getElementById('contact-submit');
+    var labelEl    = submitBtn.querySelector('.btn-label');
+    var sendingEl  = submitBtn.querySelector('.btn-sending');
+    var successEl  = document.getElementById('form-success');
+    var errorEl    = document.getElementById('form-error');
+
+    // Reset feedback
+    successEl.style.display = 'none';
+    errorEl.style.display   = 'none';
+
+    // Loading state
+    submitBtn.disabled    = true;
+    labelEl.style.display = 'none';
+    sendingEl.style.display = '';
+
+    try {
+      var response = await fetch(form.action, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: { 'Accept': 'application/json' }
+      });
+
+      if (response.ok) {
+        form.reset();
+        successEl.style.display = 'flex';
+      } else {
+        errorEl.style.display = 'flex';
+      }
+    } catch (err) {
+      errorEl.style.display = 'flex';
+    } finally {
+      submitBtn.disabled      = false;
+      labelEl.style.display   = '';
+      sendingEl.style.display = 'none';
+    }
+  });
+})();
+</script>
