@@ -81,13 +81,13 @@
       for suppliers. Built and deployed models using Scikit-Learn, Docker, and
       Kubernetes with proper CI/CD pipelines.
     it: >-
-      Iniziato come chemiometrista responsabile dello sviluppo di modelli NIR,
-      poi evoluto nella progettazione e implementazione di codice Python per
-      la chemiometria, inclusa la documentazione con Vue. Diventato il portavoce
+      Ho iniziato come chemiometra responsabile dello sviluppo di modelli NIR,
+      per poi evolvere nella progettazione e implementazione di codice Python per
+      la chemiometria, inclusa la documentazione con Vue. Sono diventato il portavoce
       principale del team di sviluppo software e key account manager per clienti
       internazionali. Responsabile della formazione dei nuovi dipendenti e
-      punto di contatto principale per i fornitori. Costruzione e deployment di
-      modelli con Scikit-Learn, Docker e Kubernetes con pipeline CI/CD.
+      punto di contatto principale per i fornitori. Sviluppo e deployment di
+      modelli con Scikit-Learn, Docker e Kubernetes tramite pipeline CI/CD.
   highlights:
     - en: NIR model development with Scikit-Learn
       it: Sviluppo modelli NIR con Scikit-Learn

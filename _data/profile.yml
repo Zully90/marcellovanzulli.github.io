@@ -12,7 +12,7 @@ title:
 
 tagline:
   en: Bridging chemistry and data science through spectroscopy and machine learning
-  it: Tra chimica e data science attraverso spettroscopia e machine learning
+  it: Al crocevia tra chimica analitica, data science e spettroscopia
 
 location: Milano, Italy
 email: info@marcellovanzulli.com
@@ -33,11 +33,11 @@ bio:
   it: >-
     Sono un Lead Chemometrician e Data Scientist con oltre 8 anni di esperienza
     nello sviluppo di modelli predittivi per NIR, Raman e altre tecniche spettroscopiche.
-    Guido un team di specialisti presso NIRLAB AG a Losanna, dove combino la mia competenza
-    in chimica analitica con metodi avanzati di machine learning. Il mio lavoro copre l'intero
-    ciclo di vita — dalla consulenza al cliente e analisi di fattibilità, allo sviluppo dei modelli,
-    al deployment con Docker/Kubernetes, al supporto continuo. Opero con naturalezza
-    all'intersezione tra chimica, data science e comunicazione aziendale.
+    Guido un team di specialisti presso NIRLAB AG a Losanna, dove unisco la mia formazione
+    in chimica analitica a metodi avanzati di machine learning. Il mio lavoro copre l'intero
+    ciclo — dalla consulenza al cliente e dall'analisi di fattibilità, allo sviluppo dei modelli,
+    fino al supporto continuo. Mi muovo con agio all'intersezione tra chimica, data science
+    e comunicazione con il business.
 
 # Highlights shown on the homepage (number + label)
 highlights:

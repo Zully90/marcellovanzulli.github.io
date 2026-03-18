@@ -74,9 +74,9 @@
       computation, offline usage requirement.
     it: >-
       Sviluppo di uno strumento Windows per trovare coefficienti di
-      allineamento tra spettri FT-IR con relazione master-slave. Richieste
-      soluzioni creative per vincoli: importazione diretta dallo strumento,
-      nessun calcolo pesante, utilizzo offline obbligatorio.
+      allineamento tra spettri FT-IR con relazione master-slave. I vincoli
+      del progetto hanno richiesto soluzioni creative: importazione diretta
+      dallo strumento, calcoli leggeri e utilizzo completamente offline.
   tags:
     - FT-IR
     - Desktop App

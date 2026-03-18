@@ -96,4 +96,36 @@
   {% endunless %}
 
   {% include metadata-hook.html %}
+
+  {% if page.layout == 'home' %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "{{ site.social.name }}",
+    "jobTitle": "{{ site.tagline }}",
+    "url": "{{ site.url }}",
+    "email": "{{ site.social.email }}",
+    "image": "{{ site.avatar | absolute_url }}",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Milan",
+      "addressCountry": "IT"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/in/marcellovanzulli",
+      "https://github.com/Zully90"
+    ],
+    "knowsAbout": [
+      "NIR Spectroscopy",
+      "Chemometrics",
+      "Machine Learning",
+      "Data Science",
+      "Raman Spectroscopy",
+      "Python",
+      "Scikit-Learn"
+    ]
+  }
+  </script>
+  {% endif %}
 </head>
