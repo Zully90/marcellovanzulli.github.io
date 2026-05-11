@@ -27,7 +27,13 @@ layout: default
                   {{ project.title }}
                 {% endif %}
               </h3>
-              <span class="project-card-client">{{ project.client }}</span>
+              <span class="project-card-client">
+                {% if project.client_url %}
+                  <a href="{{ project.client_url }}" target="_blank" rel="noopener noreferrer">{{ project.client }}</a>
+                {% else %}
+                  {{ project.client }}
+                {% endif %}
+              </span>
             </div>
           </div>
 

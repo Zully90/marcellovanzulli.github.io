@@ -7,26 +7,27 @@
 - role:
     en: Lead Chemometrician
     it: Lead Chemometrician
-  company: NIRLAB AG
+  company: 908Devices (ex NIRLAB AG)
+  company_url: https://908devices.com
   location: Lausanne, Switzerland
   period: "2025 - Present"
   current: true
   description:
     en: >-
-      Team leader of the chemometrics team, guiding three specialists while
-      continuing work in regression and classification model development for
-      NIR, Raman, and other spectroscopic techniques. Coordinating closely
-      with project management and sales teams, ensuring alignment between
-      R&D initiatives and business goals. Actively involved in research with
-      focus on innovative machine learning methods and validation strategies
-      for complex, black-box models.
+      Team leader of the chemometrics team at 908Devices, which acquired NIRLAB AG.
+      Guiding three specialists while continuing work in regression and classification
+      model development for NIR, Raman, and other spectroscopic techniques. Coordinating
+      closely with project management and sales teams, ensuring alignment between
+      R&D initiatives and business goals. Actively involved in research with focus
+      on innovative machine learning methods and validation strategies for complex,
+      black-box models.
     it: >-
-      Team leader del gruppo di chemiometria, coordinando tre specialisti e
-      continuando a sviluppare modelli di regressione e classificazione per
-      NIR, Raman e altre tecniche spettroscopiche. Collaborazione stretta con
-      i team di project management e vendite, garantendo l'allineamento tra
-      iniziative R&D e obiettivi di business. Attivamente coinvolto nella
-      ricerca con focus su tecniche innovative di machine learning e strategie
+      Team leader del gruppo di chemiometria presso 908Devices, che ha acquisito
+      NIRLAB AG. Coordinamento di tre specialisti e sviluppo continuo di modelli di
+      regressione e classificazione per NIR, Raman e altre tecniche spettroscopiche.
+      Collaborazione stretta con i team di project management e vendite, garantendo
+      l'allineamento tra iniziative R&D e obiettivi di business. Attivamente coinvolto
+      nella ricerca con focus su tecniche innovative di machine learning e strategie
       di validazione per modelli complessi di tipo black-box.
   highlights:
     - en: Team coordination & mentoring

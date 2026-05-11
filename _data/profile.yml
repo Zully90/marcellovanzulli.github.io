@@ -23,25 +23,25 @@ github: Zully90
 
 bio:
   en: >-
-    I am a Lead Chemometrician and Data Scientist with over 8 years of experience
+    I am a Lead Chemometrician and Data Scientist with over 9 years of experience
     in developing predictive models for NIR, Raman, and other spectroscopic techniques.
-    I lead a team of specialists at NIRLAB AG in Lausanne, where I combine my expertise
-    in analytical chemistry with advanced machine learning methods. My work spans the
-    full lifecycle — from client consultation and feasibility analysis to model development,
-    deployment with Docker/Kubernetes, and ongoing support. I thrive at the intersection
-    of chemistry, data science, and business communication.
+    I lead a team of specialists at 908Devices (formerly NIRLAB AG) in Lausanne, where
+    I combine my expertise in analytical chemistry with advanced machine learning methods.
+    My work spans the full lifecycle — from client consultation and feasibility analysis
+    to model development, deployment with Docker/Kubernetes, and ongoing support. I thrive
+    at the intersection of chemistry, data science, and business communication.
   it: >-
-    Sono un Lead Chemometrician e Data Scientist con oltre 8 anni di esperienza
+    Sono un Lead Chemometrician e Data Scientist con oltre 9 anni di esperienza
     nello sviluppo di modelli predittivi per NIR, Raman e altre tecniche spettroscopiche.
-    Guido un team di specialisti presso NIRLAB AG a Losanna, dove unisco la mia formazione
-    in chimica analitica a metodi avanzati di machine learning. Il mio lavoro copre l'intero
-    ciclo — dalla consulenza al cliente e dall'analisi di fattibilità, allo sviluppo dei modelli,
-    fino al supporto continuo. Mi muovo con agio all'intersezione tra chimica, data science
-    e comunicazione con il business.
+    Guido un team di specialisti presso 908Devices (ex NIRLAB AG) a Losanna, dove unisco
+    la mia formazione in chimica analitica a metodi avanzati di machine learning. Il mio
+    lavoro copre l'intero ciclo — dalla consulenza al cliente e dall'analisi di fattibilità,
+    allo sviluppo dei modelli, fino al supporto continuo. Mi muovo con agio all'intersezione
+    tra chimica, data science e comunicazione con il business.
 
 # Highlights shown on the homepage (number + label)
 highlights:
-  - number: "8+"
+  - number: "9+"
     label:
       en: Years of Experience
       it: Anni di Esperienza
