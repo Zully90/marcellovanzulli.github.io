@@ -3,10 +3,10 @@
 # icon: Font Awesome icon class
 # ============================================================================
 
-- title: Lead Chemometrician — NIRLAB
+- title: Lead Chemometrician — 908Devices
   icon: fas fa-crown
   period: "2025 - Present"
-  client: NIRLAB AG
+  client: 908Devices (ex NIRLAB AG)
   description:
     en: >-
       Team leader of the chemometrics team, coordinating weekly and long-term
@@ -20,6 +20,31 @@
     - Team Lead
     - ML
     - R&D
+
+- title: ChemTrain — SageMaker Training Platform
+  icon: fas fa-cloud
+  period: "2025 - Present"
+  client: 908Devices (ex NIRLAB AG)
+  description:
+    en: >-
+      Designed and built a full-stack chemometrics automation platform
+      bridging local interactive data science (Jupyter) with cloud-based
+      ML training (AWS SageMaker). Features a Django web GUI for managing
+      predictors, launching training jobs, monitoring results, and running
+      explainability analysis. Supports automated model selection
+      with S3-backed versioning and reproducibility.
+    it: >-
+      Progettazione e sviluppo di una piattaforma full-stack per
+      l'automazione chemiometrica, che collega la data science interattiva
+      locale (Jupyter) con il training ML in cloud (AWS SageMaker). Include
+      una GUI web Django per gestire predittori, lanciare job di training,
+      monitorare risultati ed eseguire analisi di interpretabilità. Supporta
+      la selezione automatica dei modelli con versionamento su S3.
+  tags:
+    - AWS SageMaker
+    - Django
+    - ML Automation
+    - XAI
 
 - title: R&D Chemometrician — NIRLAB
   icon: fas fa-microscope
@@ -129,7 +154,7 @@
     it: Progetti NIR End-to-End Tipici
   icon: fas fa-project-diagram
   period: "2019 - Present"
-  client: Qualitade srl / NIRLAB AG
+  client: Qualitade srl / 908Devices
   description:
     en: >-
       Managing complete NIR application lifecycles for food industry and beyond:

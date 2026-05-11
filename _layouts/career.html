@@ -26,7 +26,13 @@ layout: default
               <span data-lang="en">{{ job.role.en }}</span>
               <span data-lang="it">{{ job.role.it }}</span>
             </h3>
-            <span class="timeline-entry-company">@ {{ job.company }}</span>
+            <span class="timeline-entry-company">@
+              {% if job.company_url %}
+                <a href="{{ job.company_url }}" target="_blank" rel="noopener noreferrer">{{ job.company }}</a>
+              {% else %}
+                {{ job.company }}
+              {% endif %}
+            </span>
           </div>
 
           <div class="timeline-entry-meta">
